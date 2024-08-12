@@ -12,8 +12,7 @@ pip install pymsbox
 pip install opencv-python
 pip install pillow
 
-This also requires a couple of screen shots that are included that you should keep in the same directory as the macro.
-
+This also requires a couple of screen shots that are included that you should keep in the same directory as the macro. You can login through the gui's with either alex or lincoln in the username page and "macrobot" in the password page.
 Thank you.
 
 
