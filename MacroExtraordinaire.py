@@ -55,8 +55,8 @@ def start_game():
     x = size[0]
     y = size[1]
     if game == "elden ring":
-        windows_key = pyautogui.locateCenterOnScreen("windows_key.png", confidence=.85)
-        pyautogui.click(windows_key)
+        windows10_key = pyautogui.locateCenterOnScreen("windows_key.png", confidence=.85)
+        pyautogui.click(windows10_key)
         pyautogui.typewrite("Steam")
         pyautogui.press("enter")
         time.sleep(1)
