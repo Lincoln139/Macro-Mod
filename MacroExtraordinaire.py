@@ -1,16 +1,20 @@
 """
 Run these before running with python 3
-pip install AppOpener
-pip3 install pyautoguia
+
+pip install pydirectinput
+pip3 install pyautogui
+pip install pyscreeze
+pip install pymsbox
+pip install opencv-python
+pip install pillow
 """
-from hashlib import sha256
+
 import pydirectinput
 import sys
 import time
 import pyautogui
 import pyscreeze
 from pymsgbox import *
-import win32api, win32con
 import hashlib
 
 pyautogui.FAILSAFE = True
